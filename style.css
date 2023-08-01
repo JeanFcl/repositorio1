@@ -1,4 +1,43 @@
-.imng {
+a {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 45px;
+    position: relative;
+}
 
+nav a {
+    display: block;
+    float: left;
+    width: 170px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    position: sticky;
+}
 
+h1 {
+    position: relative;
+    margin-left: 670px;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 50px;
+    left: 890px;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f00
+}
+
+a:active {
+    text-decoration: none;
 }
